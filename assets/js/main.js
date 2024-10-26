@@ -58,7 +58,7 @@ document.querySelector(".splide") &&
   document.addEventListener("DOMContentLoaded", function () {
     new Splide("#thumbnail-carousel", {
       perPage: 5,
-      gap: 10,
+      gap: 50,
       rewind: true,
       pagination: false,
       arrows: false,
