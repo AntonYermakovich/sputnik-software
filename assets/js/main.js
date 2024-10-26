@@ -64,7 +64,9 @@ document.querySelector(".splide") &&
       arrows: false,
       breakpoints: {
         540: {
-          perPage: 2,
+          perPage: 1,
+          padding: '5rem',
+          gap: 20
         },
       },
     }).mount();

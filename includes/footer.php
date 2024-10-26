@@ -2,8 +2,8 @@
 
 
 <footer class="footer">
-    <h2>Finibus sociosqu cras amet praesent
-        <span>hendrerit aliquet elit malesuada</span>
+    <h2>Оставьте заявку и мы предоставим
+        <span>персонального бота для Вашего бизнеса</span>
     </h2>
 
     <ul>
@@ -33,7 +33,8 @@
     </ul>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 "></script>

@@ -3,33 +3,13 @@
 <section class='hero'>
     <div class="hero__container container">
         <div class="hero__wrap">
-            <ol class='hero__list'>
-                <li>Sit congue habitant bibendum luctus</li>
-                <li>Torquent mauris felis</li>
-                <li>Odio commodo suscipit tempus volutpat integer augue</li>
-                <li>Curae nullam euismod parturient nunc</li>
-                <li>Platea venenatis elit condimentum ultrices eu congue</li>
-            </ol>
+            <h1 class='hero__title'>
+                Altair Bots
+            </h1>
 
-            <div class='hero__content'>
-                <h2 class='title title__first'>Finibus</h2>
-                <h2 class='title title__second'>sociosqu</h2>
-                <h2 class='title title__third'>pellentesque</h2>
-                <h2 class='title title__fourth'>praesent</h2>
-            </div>
-        </div>
-
-
-        <div class='hero__info'>
-            <div class="hero__empty"></div>
-            <div class="hero__block">
-                <div class='box'></div>
-                <div class='text'>
-                    <p>Sit congue habitant bibendum luctus porttitor, ridiculus adipiscing.</p>
-                    <p>Dis dui taciti tristique donec lacus neque tristique laoreet?</p>
-                    <p>Odio commodo</p>
-                </div>
-            </div>
+            <h2 class='hero__subtitle'>
+                Автоматизация <br /> <span>бизнес-процессов</span> <br /> при помощи ИИ
+            </h2>
         </div>
     </div>
 </section>
@@ -190,37 +170,21 @@
         aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
         <div class="splide__track">
             <ul class="splide__list">
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/ccc/000" alt="Pic">
+                <li class="splide__slide slide__img">
+                    <img src="assets/img/company1.png" alt="Pic">
                 </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/000/fff" alt="Pic">
+                <li class="splide__slide slide__img">
+                    <img src="assets/img/company2.png" alt="Pic">
                 </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/ccc/000" alt="Pic">
+                <li class="splide__slide slide__img">
+                    <img src="assets/img/company3.png" alt="Pic">
                 </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/000/fff" alt="Pic">
+                <li class="splide__slide slide__img">
+                    <img src="assets/img/company4.png" alt="Pic">
                 </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/ccc/000" alt="Pic">
+                <li class="splide__slide slide__img">
+                    <img src="assets/img/company5.png" alt="Pic">
                 </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/000/fff" alt="Pic">
-                </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/ccc/000" alt="Pic">
-                </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/000/fff" alt="Pic">
-                </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/ccc/000" alt="Pic">
-                </li>
-                <li class="splide__slide">
-                    <img src="https://dummyimage.com/100x60/000/fff" alt="Pic">
-                </li>
-
             </ul>
         </div>
     </section>
