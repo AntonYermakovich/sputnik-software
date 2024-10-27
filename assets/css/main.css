@@ -614,10 +614,7 @@ img {
   height: 271px;
 }
 .sender .form-field__company {
-  width: 70%;
-}
-.sender .form-field__bots {
-  width: 30%;
+  width: 100%;
 }
 .sender .form .row {
   display: flex;

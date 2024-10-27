@@ -11,16 +11,6 @@
                     <div class="form-field form-field__company">
                         <input type="text" name="company" placeholder="Название компании" required>
                     </div>
-                    <div class="form-field form-field__bots">
-                        <select class="form__select" name="bot">
-                            <option selected value="1">Бот 1</option>
-                            <option value="2">Бот 2</option>
-                            <option value="3">Бот 3</option>
-                            <option value="4">Бот 4</option>
-                            <option value="5">Бот 5</option>
-                            <option value="6">Бот 6</option>
-                        </select>
-                    </div>
                 </div>
 
                 <div class="form-field form-field__message">
