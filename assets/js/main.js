@@ -57,29 +57,36 @@ tabs.length && openFirstElement();
 document.querySelector(".splide") &&
   document.addEventListener("DOMContentLoaded", function () {
     new Splide("#thumbnail-carousel", {
-      perPage: 5,
-      gap: 50,
-      rewind: true,
       pagination: false,
       arrows: false,
+      rewind: true,
+      perPage: 5,
+      gap: 50,
       type: "loop",
+      drag: "free",
+      focus: "center",
+      autoScroll: {
+        speed:1,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+      },
       breakpoints: {
         992: {
           perPage: 3,
-          padding: '5rem',
+          padding: "5rem",
         },
         540: {
           perPage: 1,
-          padding: '5rem',
-          gap: 20
+          padding: "5rem",
+          gap: 20,
         },
       },
-    }).mount();
+    }).mount(window?.splide?.Extensions);
   });
 
 // Send form to mail
 const form = document.getElementById("form-id");
-const btnForm = document.getElementById('btn')
+const btnForm = document.getElementById("btn");
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -92,17 +99,16 @@ form.addEventListener("submit", async (e) => {
   };
   console.log(formData);
 
-  const res = await fetch('mail.php', {
-    method: 'POST',
+  const res = await fetch("mail.php", {
+    method: "POST",
     body: JSON.stringify(formData),
     headers: {
-      'Content-Type': 'application/json; charset=UTF-8'
-    }
-  })
-  const data = await res.text()
-  alert(data)
+      "Content-Type": "application/json; charset=UTF-8",
+    },
+  });
+  const data = await res.text();
+  alert(data);
 });
-
 
 const phone = document.getElementById("phone");
 const maskOptions = {
@@ -115,6 +121,6 @@ phone.addEventListener("input", phoneInputHandler);
 
 function phoneInputHandler() {
   if (mask.masked.isComplete) {
-    btnForm.removeAttribute('disabled')
-  } else btnForm.setAttribute('disabled', 'true')
+    btnForm.removeAttribute("disabled");
+  } else btnForm.setAttribute("disabled", "true");
 }
