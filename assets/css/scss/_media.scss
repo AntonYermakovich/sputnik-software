@@ -222,6 +222,10 @@
     padding: 100px 16px;
   }
 
+  .partner {
+    padding: 50px 0;
+  }
+
   .sender {
     &::before,
     &::after {
@@ -229,7 +233,7 @@
     }
 
     .form {
-      padding: 100px 16px 0;
+      padding: 0 16px;
       border: none;
 
       h2 {
@@ -237,6 +241,7 @@
       }
     }
   }
+
   .footer {
     padding: 83px 0 60px 16px;
 
@@ -389,6 +394,7 @@
       width: 100%;
       height: 100%;
       order: 2;
+      max-width: 330px;
 
       p {
         font-size: 16px;
@@ -401,11 +407,6 @@
           font-weight: 200;
           line-height: 19.36px;
           font-style: normal;
-        }
-
-        &:last-child {
-          margin-top: 20px;
-          color: var(--primary-color);
         }
       }
     }
@@ -441,6 +442,10 @@
       font-size: 28px;
       line-height: 30px;
     }
+
+    .splide__custom {
+      padding: 50px 0;
+    }
   }
 
   .sender {
@@ -450,8 +455,15 @@
     }
 
     .form {
-      padding: 100px 16px 0;
       border: none;
+
+      &-field__bots {
+        display: none;
+      }
+
+      &-field__company { 
+        width: 100%;
+      }
 
       h2 {
         font-size: 31px;

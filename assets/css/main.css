@@ -855,11 +855,14 @@ img {
   .cards + .cards {
     padding: 100px 16px;
   }
+  .partner {
+    padding: 50px 0;
+  }
   .sender::before, .sender::after {
     content: none;
   }
   .sender .form {
-    padding: 100px 16px 0;
+    padding: 0 16px;
     border: none;
   }
   .sender .form h2 {
@@ -981,6 +984,7 @@ img {
     width: 100%;
     height: 100%;
     order: 2;
+    max-width: 330px;
   }
   .bots__desc-mobile p {
     font-size: 16px;
@@ -993,10 +997,6 @@ img {
     font-weight: 200;
     line-height: 19.36px;
     font-style: normal;
-  }
-  .bots__desc-mobile p:last-child {
-    margin-top: 20px;
-    color: var(--primary-color);
   }
   .bots__img {
     order: 1;
@@ -1020,12 +1020,20 @@ img {
     font-size: 28px;
     line-height: 30px;
   }
+  .partner .splide__custom {
+    padding: 50px 0;
+  }
   .sender::before, .sender::after {
     content: none;
   }
   .sender .form {
-    padding: 100px 16px 0;
     border: none;
+  }
+  .sender .form-field__bots {
+    display: none;
+  }
+  .sender .form-field__company {
+    width: 100%;
   }
   .sender .form h2 {
     font-size: 31px;

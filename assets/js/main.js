@@ -62,7 +62,12 @@ document.querySelector(".splide") &&
       rewind: true,
       pagination: false,
       arrows: false,
+      type: "loop",
       breakpoints: {
+        992: {
+          perPage: 3,
+          padding: '5rem',
+        },
         540: {
           perPage: 1,
           padding: '5rem',
